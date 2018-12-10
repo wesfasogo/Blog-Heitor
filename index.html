@@ -1,64 +1,94 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title> WESLEY SOUZA </title>
-	 <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link type="text/css" rel="stylesheet" href="css_blog.css"/>
-	<head/>
-	<body>
-		<section >
-		<header></header>
-			<nav>
-			<img src="imagens/logotopo.png" alt="logo do site" title="Pantera Logo" id="logo"/>
-				<ul>
-						<li><a href="index.html" title="Inicio">Home</a></li>
-						<li><a href="fatec.html"title="Faculdade">Fatec</a></li>
-						<li class="dropdown">
-						<a href="portugues.html" class="dropbtn branco"title="Materias">Trabalhos</a>
-							<div class="dropdown-content">
-						<a href="portugues.html" class="#">Leitura e Produção de texto</a>
-						<a href="algoritmos.html">Algoritimos e Lógica de Programação</a>
-						<a href="padroes.html" class="">Padroes de Projeto de Sitios Internet 1</a>
-						<a href="matematica.html">Fundamentos da Matemática Elementar</a>
-						<a href="bases.html" class="#">Bases da Internet</a>
-						<a href="design.html" class="#">Design Digital</a>
-						<a href="criacao.html" class="#">Criação de Conteúdo na Web</a>
-						<a href="ingles.html" class="#">Ingles 1</a>
-							</div>
-						</li>
-						<li><a href="sobre.html"title="Contato">Sobre </a></li>
-				</ul>
-			</nav>
-				<article>
-			<div class="corpo1">
-		<aside>		
-			<img src="imagens/panterahome.jpeg" alt="foto principal" title="Rei Wakanda" id="logo1"/>
-			<img id="logofatec" src="imagens/logofatec.jpg" alt="logo fatec" title="Fatec" />
-			<img id="logocps" src="imagens/logocps.png" alt="logo Centro Paula Souza " title="Centro Paula Souza" />
-		</aside>	
-			<div class="texto1">
-		<h2>
-				"A verdadeira motivação vem de realização, desenvolvimento pessoal, satisfação no trabalho e reconhecimento."
-		</h2>
-		
-			
-		</br>
-		<h1 class="recuoh1">A Fatec</h1>
-		<p class="recuo">É uma das seis instituições estaduais de educação superior mantidas pelo governo do estado de São Paulo no Brasil, junto com a Universidade de São Paulo (USP), a Universidade Estadual de Campinas (UNICAMP) entre outras.</p>
-		<p class="recuo">As Fatecs são importantes instituições brasileiras de ensino superior, sendo pioneiras na graduação de tecnólogos. Elas estão localizadas em diversas cidades paulistas, com cinco campi na capital e várias outras unidades na Grande São Paulo, interior e litoral</p>
-			
-			</div>
-				</article>
-				</section>
-				<footer>
-			
-		<p>Copyright &copy: Wesley Gonçales, todos os direitos reservados. </p>
-		<p>Contato 
-		<a href="https://www.facebook.com/wesley.fabiano.1276" title="Facebook">: Facebook</a>
-		</p>
-				</footer>
-		
-		
-	</body>
-</html>	
+
+<html lang="pt-br">
+    <head>
+        <!-- Deixa a nav bar responsiva -->
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>
+            Basquetbol
+        </title>
+    </head>
+    <body>
+        <!-- Começo da navbar -->
+        <header>
+            <p class="float-l">NBA</p>
+            <!-- substitui um javascript -->
+            <input type="checkbox" id="control-nav" />
+            <label for="control-nav" class="control-nav"></label>
+            <label for="control-nav" class="control-nav-close"></label>
+
+            <nav class="float-r">
+                <ul class="list-auto">
+                    <li>
+                        <a href="#sobre" title="sobre">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#jogadores" title="jogadores">Jogadores</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Imagem gigante -->
+        <section class="banner"></section>
+        <!-- Conteúdo do site -->
+        <main>
+            <section id="sobre" class="conteudo">
+                <h1>
+                    Sobre
+                </h1>
+                <article>
+                    <aside class="imagem float-l">
+                        <img class="i" src="imagens/foto.jpg">
+                    </aside>
+                    <p class="texto">
+                        O basquetebol ou bola ao cesto é um jogo desportivo coletivo inventado em 1891 pelo professor de Educação Física canadense James Naismit, na Associação Cristã de Rapazes de Springfield, Massachusetts, Estados Unidos. É disputado por duas equipes de 10 jogadores (5 em campo e 5 suplentes) que têm como objetivo passar a bola por dentro de um cesto e evitar que a bola entre no seu cesto colocado nas extremidades da quadra, seja num ginásio ou ao ar livre.
+                    </p>
+                    <p class="texto">
+                        Os aros que formam os cestos são colocados a uma altura de 3 metros e 5 centímetros. Os jogadores podem caminhar no campo desde que driblem (batam a bola contra o chão) a cada passo dado. Também é possível executar um passe, ou seja,passar a bola em direção a um companheiro de equipe.
+                    </p>
+                    <p class="texto">
+                      Em Dezembro de 1891, o professor de educação física canadense James Naismit, do Springfield College (então denominada Associação Cristã de Rapazes[3]), em Massachusetts, Estados Unidos, recebeu uma tarefa de seu diretor: criar um desporto que os alunos pudessem praticar em um local fechado, pois o inverno costumava ser muito rigoroso, o que impedia a prática do Baseball e do Futebol Americano.
+                    </p>
+                    <p>
+                      James Naismith logo descartou um jogo que utilizasse os pés ou com muito contato físico, pois poderiam se tornar muito violentos devido às características de um ginásio, local fechado e com piso de madeira.
+                    </p>
+                </article>
+
+            </section>
+            <section id="jogadores" class="conteudo">
+                <h1>
+                    Jogadores Famosos
+                </h1>
+                <div class="container">
+                    <div class="grid">
+                        <div class="cell">
+                            <img src="imagens/1.jpg" class="responsive-image">
+                        </div>
+                        <div class="cell">
+                            <img src="imagens/2.jpg" class="responsive-image">
+                        </div>
+                        <div class="cell">
+                            <img src="imagens/3.jpg" class="responsive-image">
+                        </div>
+                        <div class="cell">
+                            <img src="imagens/4.jpg" class="responsive-image">
+                        </div>
+                        <div class="cell">
+                            <img src="imagens/5.jpg" class="responsive-image">
+                        </div>
+                        <div class="cell">
+                            <img src="imagens/6.jpg" class="responsive-image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <p>
+                    Feito por &copy Wesley Fabiano
+                </p>
+            </footer>
+        </main>
+    </body>
+</html>
